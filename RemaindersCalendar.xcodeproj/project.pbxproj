@@ -9,12 +9,16 @@
 /* Begin PBXBuildFile section */
 		182BE6D72486B12A00D8DA40 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 182BE6D62486B12A00D8DA40 /* AppDelegate.swift */; };
 		182BE6D92486B12A00D8DA40 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 182BE6D82486B12A00D8DA40 /* SceneDelegate.swift */; };
-		182BE6DB2486B12A00D8DA40 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 182BE6DA2486B12A00D8DA40 /* ViewController.swift */; };
 		182BE6DE2486B12A00D8DA40 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 182BE6DC2486B12A00D8DA40 /* Main.storyboard */; };
 		182BE6E02486B14D00D8DA40 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 182BE6DF2486B14D00D8DA40 /* Assets.xcassets */; };
 		182BE6E32486B14D00D8DA40 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 182BE6E12486B14D00D8DA40 /* LaunchScreen.storyboard */; };
 		182BE6EE2486B14D00D8DA40 /* RemaindersCalendarTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 182BE6ED2486B14D00D8DA40 /* RemaindersCalendarTests.swift */; };
 		182BE6F92486B14D00D8DA40 /* RemaindersCalendarUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 182BE6F82486B14D00D8DA40 /* RemaindersCalendarUITests.swift */; };
+		182BE7092486B5F300D8DA40 /* BaseMonthViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 182BE7082486B5F300D8DA40 /* BaseMonthViewController.swift */; };
+		182BE70B2486B83100D8DA40 /* DateCollectionViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 182BE70A2486B83100D8DA40 /* DateCollectionViewCell.swift */; };
+		182BE70F2486C72200D8DA40 /* CalendarVars.swift in Sources */ = {isa = PBXBuildFile; fileRef = 182BE70E2486C72200D8DA40 /* CalendarVars.swift */; };
+		18EF21B2248A192F0090FAC5 /* MonthViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 18EF21B1248A192F0090FAC5 /* MonthViewController.swift */; };
+		18EF21B4248A3EF80090FAC5 /* WeekViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 18EF21B3248A3EF80090FAC5 /* WeekViewController.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -38,7 +42,6 @@
 		182BE6D32486B12A00D8DA40 /* RemaindersCalendar.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = RemaindersCalendar.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		182BE6D62486B12A00D8DA40 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		182BE6D82486B12A00D8DA40 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
-		182BE6DA2486B12A00D8DA40 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
 		182BE6DD2486B12A00D8DA40 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		182BE6DF2486B14D00D8DA40 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		182BE6E22486B14D00D8DA40 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
@@ -49,6 +52,11 @@
 		182BE6F42486B14D00D8DA40 /* RemaindersCalendarUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = RemaindersCalendarUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		182BE6F82486B14D00D8DA40 /* RemaindersCalendarUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RemaindersCalendarUITests.swift; sourceTree = "<group>"; };
 		182BE6FA2486B14D00D8DA40 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		182BE7082486B5F300D8DA40 /* BaseMonthViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BaseMonthViewController.swift; sourceTree = "<group>"; };
+		182BE70A2486B83100D8DA40 /* DateCollectionViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DateCollectionViewCell.swift; sourceTree = "<group>"; };
+		182BE70E2486C72200D8DA40 /* CalendarVars.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CalendarVars.swift; sourceTree = "<group>"; };
+		18EF21B1248A192F0090FAC5 /* MonthViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MonthViewController.swift; sourceTree = "<group>"; };
+		18EF21B3248A3EF80090FAC5 /* WeekViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WeekViewController.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -101,7 +109,11 @@
 			children = (
 				182BE6D62486B12A00D8DA40 /* AppDelegate.swift */,
 				182BE6D82486B12A00D8DA40 /* SceneDelegate.swift */,
-				182BE6DA2486B12A00D8DA40 /* ViewController.swift */,
+				182BE7082486B5F300D8DA40 /* BaseMonthViewController.swift */,
+				182BE70E2486C72200D8DA40 /* CalendarVars.swift */,
+				182BE70A2486B83100D8DA40 /* DateCollectionViewCell.swift */,
+				18EF21B1248A192F0090FAC5 /* MonthViewController.swift */,
+				18EF21B3248A3EF80090FAC5 /* WeekViewController.swift */,
 				182BE6DC2486B12A00D8DA40 /* Main.storyboard */,
 				182BE6DF2486B14D00D8DA40 /* Assets.xcassets */,
 				182BE6E12486B14D00D8DA40 /* LaunchScreen.storyboard */,
@@ -259,8 +271,12 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				182BE6DB2486B12A00D8DA40 /* ViewController.swift in Sources */,
+				18EF21B4248A3EF80090FAC5 /* WeekViewController.swift in Sources */,
+				18EF21B2248A192F0090FAC5 /* MonthViewController.swift in Sources */,
+				182BE70B2486B83100D8DA40 /* DateCollectionViewCell.swift in Sources */,
+				182BE7092486B5F300D8DA40 /* BaseMonthViewController.swift in Sources */,
 				182BE6D72486B12A00D8DA40 /* AppDelegate.swift in Sources */,
+				182BE70F2486C72200D8DA40 /* CalendarVars.swift in Sources */,
 				182BE6D92486B12A00D8DA40 /* SceneDelegate.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
